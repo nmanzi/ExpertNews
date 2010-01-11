@@ -1,0 +1,104 @@
+/* Default ExpertNews Style Sheet */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	background-color: #999999;
+	background-image: url(../images/top.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	color:#303030;
+	font-family: Verdana;
+	line-height: 1.5;
+	font-size: 12px;
+	}
+
+#container {
+	margin-top: 50px;
+	margin-bottom: 10px;
+	padding: 0;
+	background-color: white;
+	background-image: url(/images/bottom.jpg);
+	background-position:top right;
+	background-repeat:no-repeat;
+	}
+
+#contents {
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	}
+	
+#footer {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	margin-top: 2px;
+	height: 30px;
+	clear: both;
+}
+
+#footer p {
+	margin: 0;
+	padding: 0;
+	font: 10px verdana, serif;
+	color: #5A5A5A;
+}
+
+#footerimgs {
+	text-align: center;
+}
+
+a, a:visited { border-bottom:1px dotted #4466BB; text-decoration:none; color:#4466BB; }
+a:hover		 { background-color:#DFE8FF; text-decoration:none; }
+
+#menu {
+	width: 400px;
+	margin: 0;
+	margin-right: auto;
+	padding: 0;
+	height: 13px;
+	font: 10px verdana, serif;
+	color: #5A5A5A;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menu li {display: inline;}
+
+#menu ul li a {
+	padding: 2px 5px;
+	padding-top: 0;
+	background-color: #505050;
+	text-decoration: none;
+}
+
+#menu ul li a:link {color: #5A5A5A; background-color: #E0E0E0;}
+#menu ul li a:visited {color: #5A5A5A; background-color: #E0E0E0;}
+#menu ul li a:hover { color: white; background-color: #8499B6;}
+
+a.menu2, a.menu2:visited{ color:#FFFFFF; background-color:#5f81d7; }
+a.menu2:hover			{ color:#FFFFFF; background-color:#5f81d7; }
+
+td, th { color:#303030; font-family: Verdana; line-height:1.5; font-size:12px; }
+h1, h2, h3, h4 { font-weight:normal; }
+hr 			{ color:#eeeeee; height:1px; }
+
+input, textarea, select { font-family:Verdana; font-size:12px; color:#505050; border:1px solid #000000; }
+
+.textField 	{ width:200px; }
+.textField2 	{ width:620px; }
+.copyright 	{ color:#A0A0A0; font-size:11px; }
+.heading 	{ font-size:24px; }
+.heading2 	{ font-size:16px; font-weight:bold; }
+.page_heading { font-size:18px; width:100%; border-bottom:1px solid #DFE8FF; text-align:left; margin-bottom:10px; }
+.message	{ width:80%; color:#4466BB; background-color:#DFE8FF; padding:5px; border:1px solid #4466BB; text-align:center; }
+.error		{ width:80%; color:#4466BB; background-color:#DFE8FF; padding:5px; border:1px solid #4466BB; text-align:center; }
+.error_text		{ color:#FF0000; }

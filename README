@@ -1,0 +1,39 @@
+ExpertNews 0.1
+developed by fomalhaut (Nathan Manzi)
+nathan.manzi@synflare.com - i/o sanity development
+http://iosanity.org || http://synflare.com
+
+== THIS SOFTWARE IS GPL - OPEN SOURCE ==
+== Please read the LICENCE file ==
+
+Changelog
+---------
+Release 0.1:
+Initial release: flat file databases, seperate subscription/unsubscription databases,
+compose for both HTML and Plain Text emails.
+
+Installation
+------------
+1. 	Place the files into a directory on your web server
+2. 	Create three text files: one for new subscribers, one for unsubscribers and one
+	for your mailing list. CHMOD those files 777. You will specify their names later.
+3. 	Browse to index.php
+4. 	Log in with default username 'admin', and password 'admin'
+5. 	Browse to the configuration page to change the password and database files.
+6.	Start adding subscribers, and have fun!
+
+PLEASE CHANGE THE $UNSUBSCRIBE AND $PUBLISHER VARIABLES IN COMPOSE.PHP TO SUIT YOUR NEEDS.
+
+Donations
+---------
+If you'd like to help fuel development by fueling the developers with much needed caffeine,
+donate via the link on our sourceforge project page or send me a caffeine pack from thinkgeek
+or something! :)
+
+Thanks
+------
+i/o sanity development wishes to thank the following:
+Kenneth Hart - eye4you.com.au (For whom this project started for!)
+SourceForge - sourceforge.net (For hosting the project)
+Damon McManus - fotzlapen.com (The 'l337est' php coder ever)
+Lauren Cearns - my girlfriend, for putting up with my unbreakable focus.

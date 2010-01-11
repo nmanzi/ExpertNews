@@ -1,0 +1,6 @@
+Release 0.1
+-----------
+1. First Release
+2. CSS Seperate to Template.php
+3. Functions.php contains alertbox() and infobox() functions
+4. Settings.php cleaned up...
